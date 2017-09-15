@@ -33,14 +33,16 @@ body{
 }
 
 
-@media (max-width: 700px) {
-  .child {
-    min-width: 33.33%; 
-  }
-}
-
-@media (max-width: 400px) {
+@media screen and (max-width: 700px) {
   .child {
     min-width: 50%; 
+    background: yellow;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .child {
+    min-width: 100%;
   }
 }
