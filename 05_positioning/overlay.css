@@ -1,0 +1,14 @@
+
+section{
+	padding-top: 3rem;
+}
+
+.panel{
+	margin: auto;
+	width: 10em;
+	height: 8em;
+	border: 1px solid blue;
+	text-align: center;
+}
+
+

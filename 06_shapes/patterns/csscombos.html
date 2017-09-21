@@ -17,10 +17,10 @@
 			/* div elements that have class of brick */
 			
 			div+.brick {  /* declarations */ }
-			/* if brick class comes right after div */
+			/* apply to brick class that comes right after div */
 
 			div~.brick {  /* declarations */ }
-			/* if brick class comes after div, not necessarily immediately  */
+			/* apply to brick class that comes after div, not necessarily immediately  */
 
 			.layer1 { 
 				background: none;
@@ -35,62 +35,182 @@
 				border-right: 80px solid transparent;
 				border-radius: 50%;
 				mix-blend-mode: multiply;
-				transform: rotate(10deg);
 				margin: -40px;
 			 }
 
-			.layer1 div:nth-child(even) {
-				 border-color: rgba(0,155,245,1);
-				 border-left: 80px solid transparent;
+			.layer1 div:nth-child(3n) {
+				border-radius: 0;
+				border-color: rgba(0,155,245,1);
+				transform: rotate(10deg);
+				border-left: 80px solid transparent;
 			}
+
+
 		</style>
 	</head>
 	<body>
 		<div class="layer1">
 			<div></div>
 			<div></div>
-			<div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
-			<div></div><div></div><div></div><div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
 		</div>
-	
-	
+
 	</body>
 </html>
