@@ -3,7 +3,7 @@ body{
 	height: 200vh;
 }
 section{
-
+	position: absolute;
 }
 
 .box{
@@ -26,11 +26,9 @@ section{
 }
 
 .absolute{
-	width: 200px;
-	height: 200px;
 	position: absolute;
-	top: 20px;
-	left: 20px;
+	top: 100px;
+	right: 100px;
 	background: rgba(255,0,0,0.5);
 }
 
