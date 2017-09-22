@@ -13,7 +13,9 @@
 	opacity: 0.8;
 }
 
-
+h1{
+/*	display: none;*/
+}
 
 .elementcontainer {
 	height: 80vh;
@@ -32,10 +34,19 @@
 	background-color: blue;
 }
 
+.element:hover{
+	cursor: pointer;
+}
 
-/*.play{
+
+.reveal{
+/*	display: block;*/
+	background: yellow;
+}
+
+.play{
 	animation: wheel 1s ease-in-out alternate infinite;
-}*/
+}
 
 @keyframes wheel {
 	0% {
@@ -45,3 +56,4 @@
 		transform: rotateY(360deg);
 	}
 }
+
