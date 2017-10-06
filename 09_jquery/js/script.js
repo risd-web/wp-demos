@@ -16,11 +16,13 @@ $(document).ready(function(){
 
 
 	$(".element").click(function(){
-		
 		$(this).toggleClass("play");
-
+		$('h1').text(myText);
 	});
 
+	var myText = $('h2').text();
+
+	console.log(myText);
 
 
 });
