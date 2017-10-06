@@ -60,46 +60,46 @@ section{
 }
 
 .tall{
-        height: 500px;
+    height: 500px;
 }
 
 /*Flexbox layout*/
 #flexbox{
-        display: flex;
+    display: flex;
 }
 .fixed {
-        width: 150px;
-        background: yellow;
+    width: 150px;
+    background: yellow;
 }
 
 .col1{
-        flex: 3;
+    flex: 3;
 }
 
 .col2, .col3{
-        flex: 1;
+    flex: 1;
 }
 
 
 /*Inline layout*/
 #display .event{
-        width: 300px;
-        display: inline-block; /*or table-cell;*/
+    width: 300px;
+    display: inline-block; /*or table-cell;*/
 }
 
 /*vertical centering*/
 #centering{
-        height: 100vh;
-        background: #c8dfff;
-        display: flex;
-        align-items: center;
+    height: 100vh;
+    background: #c8dfff;
+    display: flex;
+    align-items: center;
 }
 
 .box{
-        width: 200px;
-        height: 200px;
-        background: #d3c52e;
-        margin: auto;
+    width: 200px;
+    height: 200px;
+    background: #d3c52e;
+    margin: auto;
 }
 
 
