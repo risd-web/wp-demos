@@ -1,45 +1,44 @@
 body{
 	background: #3694c5;
+	font-family: Helvetica, sans-serif;
+	font-size: 3em;
 }
 
-section{
-	transform: rotate(45deg);
-}
-
-.graphic{
+#top, #bottom{
+	overflow: auto;
 	background: #3694c5;
 }
-.box{
-	width: 200px;
-	height: 200px;
-	margin-right: 30px;
-	float: left;
-}
 
-.yellow, .blue{
-	overflow: auto;
-	mix-blend-mode: multiply;
-}
-
-.yellow .box{
+.square{
+	width: 300px;
+	height: 300px;
 	background: yellow;
+	margin: 10px;
+	float: left;
+	mix-blend-mode: multiply;
+	opacity: 0.8;
 }
 
-.blue .box{
+#bottom{
+	margin-top: -100px;
+	margin-left: 500px;
+	width: 1600px;
+}
+#bottom .square{
 	background: blue;
-	border-radius: 50%;
+	width: 500px;
+	height: 500px;
 }
 
-.blue{
-	position: relative;
-	top: -100px;
-	left: 100px;
-}
 
-.text{
+#text{
 	display: flex;
 }
 
-#left, #right{
+.col{
 	flex: 1;
+}
+
+#poster{
+	transform: rotate(30deg);
 }
