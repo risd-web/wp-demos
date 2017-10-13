@@ -57,6 +57,7 @@ section{
 #floated .event{
     float: left;
     width: 300px;
+    margin: 2em;
 }
 
 .tall{
@@ -68,11 +69,14 @@ section{
     display: flex;
 }
 .fixed {
-    width: 150px;
+   /* width: 150px;*/
     background: yellow;
 }
 
-.col1{
+#flexbox .event{
+    flex: 1;
+}
+/*.col1{
     flex: 3;
 }
 
@@ -80,11 +84,11 @@ section{
     flex: 1;
 }
 
-
+*/
 /*Inline layout*/
 #display .event{
     width: 300px;
-    display: inline-block; /*or table-cell;*/
+    display: table-cell; /*or table-cell;*/
 }
 
 /*vertical centering*/
@@ -100,6 +104,11 @@ section{
     height: 200px;
     background: #d3c52e;
     margin: auto;
+}
+
+li{
+    display: inline-block;
+    width: 300px;
 }
 
 

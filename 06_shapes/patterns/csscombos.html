@@ -4,6 +4,8 @@
 		<title>Overflow</title>
 		<title>Combos</title>
 		<style>
+			/*Examples of more kinds of CSS selectors:*/
+
 			div, .brick {  /* declarations */ }
 			/* all divs AND brick classes */
 			
@@ -22,12 +24,11 @@
 			div~.brick {  /* declarations */ }
 			/* apply to brick class that comes after div, not necessarily immediately  */
 
-			.layer1 { 
-				background: none;
+			.layer { 
 				width: 120%;
-				   }
+			}
 
-			.layer1 div { 
+			.layer div { 
 				width: 50px;
 				height: 50px;
 				float: left;
@@ -38,8 +39,12 @@
 				margin: -40px;
 			 }
 
-			.layer1 div:nth-child(3n) {
-				border-radius: 0;
+			 .layer div:nth-child(2n) {
+			 	border-color: rgba(255,0,0,0.5);
+			 	border-left: 80px solid transparent;
+			 }
+
+			.layer div:nth-child(3n) {
 				border-color: rgba(0,155,245,1);
 				transform: rotate(10deg);
 				border-left: 80px solid transparent;
@@ -49,7 +54,7 @@
 		</style>
 	</head>
 	<body>
-		<div class="layer1">
+		<div class="layer">
 			<div></div>
 			<div></div>
 			<div></div>

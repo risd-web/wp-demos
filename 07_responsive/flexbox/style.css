@@ -32,17 +32,25 @@ body{
   font-size: 2em;
 }
 
+img{
+  width: 200%;
+}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .child {
     min-width: 50%; 
     background: yellow;
   }
 
+
 }
+
+
 
 @media screen and (max-width: 400px) {
   .child {
-    min-width: 100%;
+    min-width: 100%; 
+    background: blue;
   }
+
 }
