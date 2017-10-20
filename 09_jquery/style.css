@@ -1,5 +1,4 @@
 
-
 .button{
 	padding: 2rem 3rem;
 	background: green;
@@ -14,7 +13,7 @@
 }
 
 h1{
-/*	display: none;*/
+	display: none;
 }
 
 .elementcontainer {
@@ -40,7 +39,7 @@ h1{
 
 
 .reveal{
-/*	display: block;*/
+	display: block;
 	background: yellow;
 }
 
