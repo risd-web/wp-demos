@@ -1,6 +1,3 @@
-console.log("some text here"); //just to check that your script is loading in console
- 	
-
 $(document).ready(function(){
 
 
