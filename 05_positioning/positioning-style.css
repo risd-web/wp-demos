@@ -49,3 +49,10 @@ body{
 	border-bottom-left-radius: 50%;
 }
 
+.circle{
+	 background: white;
+	 width: 200px;
+	 height: 200px;
+	 border-radius: 50%;
+}
+

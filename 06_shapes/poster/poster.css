@@ -1,33 +1,32 @@
 body{
 	background: #3694c5;
 	font-family: Helvetica, sans-serif;
-	font-size: 3em;
-}
-
-#top, #bottom{
-	overflow: auto;
-	background: #3694c5;
 }
 
 .square{
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	background: yellow;
-	margin: 10px;
 	float: left;
+	margin: 10px;
 	mix-blend-mode: multiply;
-	opacity: 0.8;
 }
 
-#bottom{
-	margin-top: -100px;
-	margin-left: 500px;
-	width: 1600px;
+
+#yellowsq, #bluesq{
+	background: #3694c5;
+	overflow: auto;
 }
-#bottom .square{
+
+#bluesq .square{
 	background: blue;
-	width: 500px;
-	height: 500px;
+	width: 300px;
+	height: 300px;
+}
+
+#bluesq{
+	margin-top: -100px;
+	margin-left: 300px;
 }
 
 
@@ -35,10 +34,27 @@ body{
 	display: flex;
 }
 
-.col{
+.left, .right{
 	flex: 1;
 }
 
+.left{
+	text-align: right;
+	margin-right: 1rem;
+}
+
+h1{
+	margin-bottom: 1rem;
+}
+
+h1,h2{
+	font-size: 2rem;
+}
+
+h2{
+	margin: 0;
+}
+
 #poster{
-	transform: rotate(30deg);
+	transform: rotate(30deg)
 }
