@@ -1,8 +1,13 @@
 body{
-	font-family: Times, serif;
+	font-family: Georgia, serif;
+	line-height: 1.5;
 }
 
-header{
+/*
+PAGE HEADER
+*/
+
+#page_header{
 	font-family: Helvetica, sans-serif;
 }
 
@@ -35,6 +40,13 @@ nav li{
 	display: inline-block;
 }
 
+/*
+ARTICLE STYLING
+*/
+
+/*
+article header
+*/
 
 #title{
 	display: flex;
@@ -49,18 +61,29 @@ nav li{
 #text{
 	background: black;
 	color: white;
+	display: flex;
+	align-items: center;
+}
+
+#article_header{
 	text-align: center;
+	width: 100%;
 }
 
 #image img{
 	margin-top: -100px;
-}
-
-img{
 	width: 100%;
 }
 
 
+/*
+article body
+*/
+
+
+main{
+	overflow: auto;
+}
 
 #bodytext, #rightcol{
 	float: left;
@@ -76,3 +99,5 @@ img{
 #rightcol{
 	width: 30%;
 }
+
+
