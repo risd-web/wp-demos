@@ -6,6 +6,14 @@ body{
 	color: blue;
 }
 
+a{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover{
+	color: purple;
+}
 
 #columns{
 	background: rgb(245,245,245);
